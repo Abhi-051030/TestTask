@@ -1,12 +1,18 @@
 
 public class MyClass {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int MyBankAccountNumber;
-		String MyBankName;
-		System.out.println("hello world");
-		
+	String MyBankName;
+	int MyBankAccountNumber;
+	public String getMyBankName() {
+		return MyBankName;
+	}
+	public void setMyBankName(String myBankName) {
+		MyBankName = myBankName;
+	}
+	public int getMyBankAccountNumber() {
+		return MyBankAccountNumber;
+	}
+	public void setMyBankAccountNumber(int myBankAccountNumber) {
+		MyBankAccountNumber = myBankAccountNumber;
 	}
 
 }
